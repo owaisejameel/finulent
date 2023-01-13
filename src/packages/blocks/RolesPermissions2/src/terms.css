@@ -1,0 +1,171 @@
+.termstext{
+    font-family: 'Roboto' sans-serif !important;
+    /* font-weight: 700 !important; */
+    font-size: 16px !important;
+}
+.editbtn{
+background-color:#F0F0F0 !important;
+width:50px!important
+}
+.maintermsdiv{
+    display:flex !important;
+    align-items:center !important;
+    gap:20 !important;
+}
+.terms-heading{
+font-family: 'Roboto' sans-serif !important;
+font-weight: bold !important;
+font-size: 16 !important;
+}
+.save-terms-btn{
+    background-color:#0096FF !important;
+    font-family: 'Roboto' sans-serif !important;
+    font-size: 16 !important;
+    /* background-color:#F0F0F0 !important; */
+    padding: 10px 35px 10px 35px !important;
+    color: white !important;
+    text-transform: none !important;
+    width: 50% !important;
+    font-weight:  bold !important;
+}
+.divideradmin{
+    margin-top: 50px !important;
+    margin-bottom: 30px !important
+}
+.edittermbtn{
+    background-color:#D3D3D3 !important;
+    font-family: 'Roboto' sans-serif !important;
+    font-size: 16 !important;
+    padding: 10px 35px 10px 35px !important;
+    color: black !important;
+    /* width: 50% !important; */
+    text-transform: none !important;
+    font-weight: bold !important;
+}
+.cancel-terms-btn{
+    background-color:#D3D3D3!important;
+    font-family: 'Roboto' sans-serif !important;
+    font-size: 16 !important;
+    padding: 10px 35px 10px 35px !important;
+    color: black !important;
+    width: 50% !important;
+    text-transform: none !important;
+    font-weight:  bold !important;
+}
+.designeditbtn{
+    /* background-color:#F0F0F0 !important; */
+    color:#0096FF !important;
+    font-family: 'Roboto' sans-serif !important;
+    font-size: 16 !important;
+/* width:50px!important */
+}
+.adddesignebtn{
+    color:#0096FF !important;
+    font-family: 'Roboto' sans-serif !important;
+    font-size: 16 !important;
+    padding: 10px 35px 10px 35px !important;
+    /* color: black !important; */
+    /* width: 50% !important; */
+    text-transform: none !important;
+}
+.modal-designation-backdrop{
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: rgba(0, 0, 0, 0.4);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 2;
+}
+.modal-designation-content1{
+    width: 30%;
+
+    /* min-height: 200px; */
+    background-color: white;
+    padding: 25px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    overflow-y: scroll;
+}
+.btn-cancel-designation{
+    /* margin-top: 2% !important; */
+    margin-left: 15px !important;
+    background-color:#e8e8e8 !important;
+    color: black !important;
+    /* //   marginLeft: "15px"; */
+    padding: 10px 35px 10px 35px !important;
+    font-family: "Roboto",sans-serif !important;
+    font-size: 16 !important;
+    width: 30% !important;
+    text-transform: none !important;
+    font-weight: bold !important;
+}
+.btn-add-designation{
+    /* margin-top: 2% !important; */
+    margin-left: 15px !important;
+    background-color:#0096FF !important;
+    color: white !important;
+    /* //   marginLeft: "15px"; */
+    padding: 10px 35px 10px 35px !important;
+    font-family: "Roboto",sans-serif !important;
+    font-size: 16 !important;
+    width: 30% !important;
+    text-transform: none !important;
+    font-weight:  bold !important;
+}
+.inputdesignationlabel{
+    font-family: "Roboto",sans-serif !important;
+    color: #6a6f7a !important;
+    margin-bottom: 10;
+    font-weight: 700 !important;
+    font-size: 16px !important;
+    text-align: left !important;
+    margin-top: 15px !important;
+    padding-bottom: 10px;
+}
+.App-header {
+    background-color: #282c34;
+    /* min-height: 5vh; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-size: calc(10px + 2vmin);
+    color: white;
+    margin-bottom: 5vh;
+    text-align: center;
+  }
+.textfiled{
+
+}
+
+  .wrapper-class {
+    padding: 1rem;
+    /* border: 1px solid #ccc; */
+  }
+  .editor-class {
+    background-color:white;
+    padding: 1rem;
+    border: 1px solid #ccc;
+  }
+  .toolbar-class {
+    border: 1px solid #ccc;
+  }
+  .designname{
+    font-family: "Roboto",sans-serif !important;
+    color: grey!important;
+    font-weight: bold !important;
+    font-size:  16 !important;
+  }
+  .rdw-editor-main{
+    height: auto !important;
+    max-height: 70vh;
+  }
+  .wrapper-class{
+    padding: 0px !important;
+    padding-top: 1rem !important;
+  }

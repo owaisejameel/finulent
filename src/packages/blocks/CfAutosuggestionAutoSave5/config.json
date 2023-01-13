@@ -1,0 +1,65 @@
+{
+  "id": "CfAutosuggestionAutoSave5",
+  "version": "0.0.2",
+  "status": "preAlpha",
+  "path": "./packages/blocks/CfAutosuggestionAutoSave5",
+  "assembler-adapters": [],
+  "mobile": {
+    "merge-engine-navigation": {},
+    "assembler-exports": [
+      "CfAutosuggestionAutoSave5"
+    ],
+    "assembler-dependencies": [],
+    "catalog-dependencies": [
+      "core",
+      "utilities"
+    ],
+    "assembler-devDependencies": [],
+    "merge-engine-screens": {
+      "CfAutosuggestionAutoSave5": {
+        "file": "CfAutosuggestionAutoSave5.tsx",
+        "extends": "CfAutosuggestionAutoSave5Controller",
+        "ui-elements": [],
+        "imports": [
+          {
+            "value": "CfAutosuggestionAutoSave5Controller",
+            "path": "./CfAutosuggestionAutoSave5Controller"
+          },
+          {
+            "value": "{Props}",
+            "path": "./CfAutosuggestionAutoSave5Controller"
+          }
+        ]
+      }
+    }
+  },
+  "web": {
+    "merge-engine-navigation": {},
+    "assembler-exports": [
+      "CfAutosuggestionAutoSave5"
+    ],
+    "assembler-dependencies": [],
+    "catalog-dependencies": [
+      "core",
+      "utilities"
+    ],
+    "assembler-devDependencies": [],
+    "merge-engine-screens": {
+      "CfAutosuggestionAutoSave5": {
+        "file": "CfAutosuggestionAutoSave5.web.tsx",
+        "extends": "CfAutosuggestionAutoSave5Controller",
+        "ui-elements": [],
+        "imports": [
+          {
+            "value": "CfAutosuggestionAutoSave5Controller",
+            "path": "./CfAutosuggestionAutoSave5Controller"
+          },
+          {
+            "value": "{Props}",
+            "path": "./CfAutosuggestionAutoSave5Controller"
+          }
+        ]
+      }
+    }
+  }
+}

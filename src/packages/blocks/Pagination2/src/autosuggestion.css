@@ -1,0 +1,56 @@
+.btn-ahj{
+    /* background-color:#D3D3D3 !important; */
+    font-family: 'Roboto' sans-serif !important;
+    font-size: 16 !important;
+    padding: 10px 35px 10px 35px !important;
+    color: black !important;
+    border: 0px !important;
+    /* width: 50% !important; */
+    text-transform: none !important;
+    font-weight: bold !important;
+    margin-left: 5px !important;
+    margin-top: 10px !important;
+}
+.table-data1{
+    /* background-color: white !important; */
+    padding: 10px !important ;
+    margin-top:20px !important;
+    margin-left: 10px !important;
+
+}
+.add-auto-btn-code{
+    text-align:center !important;
+    padding-left:20px !important;
+    display: flex !important;
+
+}
+.add-auto-code{
+    font-family: sans-serif !important;
+    font-size: 16 !important;
+    color: #0096FF !important;
+    margin-right: 10px !important;
+    text-transform: none !important;
+}
+.add-auto-heading{
+    font-family:  sans-serif !important;
+    font-size: 16 !important;
+    color: grey!important;
+    font-weight: bold !important;
+    margin-top: 30px !important;
+}
+.subhead-heading{
+    font-family:  sans-serif !important;
+    font-size: 16 !important;
+    color: grey!important;
+    font-weight: bold !important;
+    margin-left: 20px !important;
+}
+.messageErr{
+    font-family:  sans-serif !important;
+    font-size: 14 !important;
+    color: red!important;
+}
+.textdata{
+    font-family:  sans-serif !important;
+    font-size: 16 !important;
+}

@@ -1,0 +1,65 @@
+{
+  "id": "Pagination2",
+  "version": "0.0.2",
+  "status": "preAlpha",
+  "path": "./packages/blocks/Pagination2",
+  "assembler-adapters": [],
+  "mobile": {
+    "merge-engine-navigation": {},
+    "assembler-exports": [
+      "Pagination2"
+    ],
+    "assembler-dependencies": [],
+    "catalog-dependencies": [
+      "core",
+      "utilities"
+    ],
+    "assembler-devDependencies": [],
+    "merge-engine-screens": {
+      "Pagination2": {
+        "file": "Pagination2.tsx",
+        "extends": "Pagination2Controller",
+        "ui-elements": [],
+        "imports": [
+          {
+            "value": "Pagination2Controller",
+            "path": "./Pagination2Controller"
+          },
+          {
+            "value": "{Props}",
+            "path": "./Pagination2Controller"
+          }
+        ]
+      }
+    }
+  },
+  "web": {
+    "merge-engine-navigation": {},
+    "assembler-exports": [
+      "Pagination2"
+    ],
+    "assembler-dependencies": [],
+    "catalog-dependencies": [
+      "core",
+      "utilities"
+    ],
+    "assembler-devDependencies": [],
+    "merge-engine-screens": {
+      "Pagination2": {
+        "file": "Pagination2.web.tsx",
+        "extends": "Pagination2Controller",
+        "ui-elements": [],
+        "imports": [
+          {
+            "value": "Pagination2Controller",
+            "path": "./Pagination2Controller"
+          },
+          {
+            "value": "{Props}",
+            "path": "./Pagination2Controller"
+          }
+        ]
+      }
+    }
+  }
+}

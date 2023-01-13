@@ -1,0 +1,110 @@
+.maincard{
+    height:30vh
+}
+.editicon{
+    display:flex;
+    flex-direction:row;
+    justify-content:space-between !important;
+    align-items:center;
+    margin-bottom:20px;
+}.btn-cancel{
+    /* // padding:'5px 25px 5px 25px', */
+    margin-top: 2% !important;
+    margin-left: 15px !important;
+    background-color:#e8e8e8 !important;
+    color: black !important;
+    /* //   marginLeft: "15px"; */
+    padding: 10px 35px 10px 35px !important;
+    font-family: "Roboto",sans-serif !important;
+    font-size: 16;
+    width: 130px !important;
+}
+.btn-add{
+    margin-top: 2% !important;
+    margin-left: 15px !important;
+    background-color: #0096FF !important;
+    color: "white" !important;
+    font-family: "Roboto",sans-serif !important;
+    font-size: 16;
+    padding: 10px 35px 10px 35px !important;
+    width: 130px !important;
+
+}
+.modal-content1 {
+    width: 30%;
+    height: 40%;
+    /* min-height: 200px; */
+    background-color: white;
+    padding: 25px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    overflow-y: scroll;
+  }
+  .modal-backdrop {
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: rgba(0, 0, 0, 0.4);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 2;
+  }
+  .mainheading{
+
+    font-family: 'Roboto', sans-serif !important;
+    color: #6a6f7a !important;
+    text-align: left !important;
+    font-weight: 700 !important;
+    font-size: 16px !important;
+
+    color:black !important;
+    display:flex !important;
+    margin-bottom:10 !important;
+  }
+  .modal-successcontent{
+    width: 30% !important;
+    height: 40% !important;
+    /* min-height: 200px; */
+    background-color: white !important;
+    padding: 25px !important;
+    text-align: center !important;
+    display: flex !important;
+    flex-direction: column !important;
+    /* overflow-y: scroll; */
+  }
+  .okbtn{
+    margin-top: 2% !important;
+    margin-left: 15px !important;
+    background-color: #e8e8e8!important;
+    color: black !important;
+    width: 30%;
+    margin-bottom: 5px;
+    padding: 10px 45px 10px 45px !important;
+    font-family: 'Roboto', sans-serif !important;
+    font-size: 16 !important;
+  }
+  .inputlabel1{
+    /* font-size: 16px; */
+    font-family: "Roboto",sans-serif !important;
+    color: #6a6f7a !important;
+    margin-bottom: 10;
+    font-weight: 700 !important;
+    font-size: 16px !important;
+    text-align: left !important;
+    margin-top: 15px !important;
+  }
+  .headingdata1{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 10;
+  }
+  .progres{
+    height: 100%;
+      justify-content: center !important;
+      display: flex !important;
+      align-items: center !important;
+  }

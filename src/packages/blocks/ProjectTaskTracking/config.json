@@ -1,0 +1,65 @@
+{
+  "id": "ProjectTaskTracking",
+  "version": "0.0.2",
+  "status": "preAlpha",
+  "path": "./packages/blocks/ProjectTaskTracking",
+  "assembler-adapters": [],
+  "mobile": {
+    "merge-engine-navigation": {},
+    "assembler-exports": [
+      "ProjectTaskTracking"
+    ],
+    "assembler-dependencies": [],
+    "catalog-dependencies": [
+      "core",
+      "utilities"
+    ],
+    "assembler-devDependencies": [],
+    "merge-engine-screens": {
+      "ProjectTaskTracking": {
+        "file": "ProjectTaskTracking.tsx",
+        "extends": "ProjectTaskTrackingController",
+        "ui-elements": [],
+        "imports": [
+          {
+            "value": "ProjectTaskTrackingController",
+            "path": "./ProjectTaskTrackingController"
+          },
+          {
+            "value": "{Props}",
+            "path": "./ProjectTaskTrackingController"
+          }
+        ]
+      }
+    }
+  },
+  "web": {
+    "merge-engine-navigation": {},
+    "assembler-exports": [
+      "ProjectTaskTracking"
+    ],
+    "assembler-dependencies": [],
+    "catalog-dependencies": [
+      "core",
+      "utilities"
+    ],
+    "assembler-devDependencies": [],
+    "merge-engine-screens": {
+      "ProjectTaskTracking": {
+        "file": "ProjectTaskTracking.web.tsx",
+        "extends": "ProjectTaskTrackingController",
+        "ui-elements": [],
+        "imports": [
+          {
+            "value": "ProjectTaskTrackingController",
+            "path": "./ProjectTaskTrackingController"
+          },
+          {
+            "value": "{Props}",
+            "path": "./ProjectTaskTrackingController"
+          }
+        ]
+      }
+    }
+  }
+}

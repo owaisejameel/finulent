@@ -1,0 +1,65 @@
+{
+  "id": "EditInvoices",
+  "version": "0.0.2",
+  "status": "preAlpha",
+  "path": "./packages/blocks/EditInvoices",
+  "assembler-adapters": [],
+  "mobile": {
+    "merge-engine-navigation": {},
+    "assembler-exports": [
+      "EditInvoices"
+    ],
+    "assembler-dependencies": [],
+    "catalog-dependencies": [
+      "core",
+      "utilities"
+    ],
+    "assembler-devDependencies": [],
+    "merge-engine-screens": {
+      "EditInvoices": {
+        "file": "EditInvoices.tsx",
+        "extends": "EditInvoicesController",
+        "ui-elements": [],
+        "imports": [
+          {
+            "value": "EditInvoicesController",
+            "path": "./EditInvoicesController"
+          },
+          {
+            "value": "{Props}",
+            "path": "./EditInvoicesController"
+          }
+        ]
+      }
+    }
+  },
+  "web": {
+    "merge-engine-navigation": {},
+    "assembler-exports": [
+      "EditInvoices"
+    ],
+    "assembler-dependencies": [],
+    "catalog-dependencies": [
+      "core",
+      "utilities"
+    ],
+    "assembler-devDependencies": [],
+    "merge-engine-screens": {
+      "EditInvoices": {
+        "file": "EditInvoices.web.tsx",
+        "extends": "EditInvoicesController",
+        "ui-elements": [],
+        "imports": [
+          {
+            "value": "EditInvoicesController",
+            "path": "./EditInvoicesController"
+          },
+          {
+            "value": "{Props}",
+            "path": "./EditInvoicesController"
+          }
+        ]
+      }
+    }
+  }
+}

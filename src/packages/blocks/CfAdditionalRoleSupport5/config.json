@@ -1,0 +1,65 @@
+{
+  "id": "CfAdditionalRoleSupport5",
+  "version": "0.0.2",
+  "status": "preAlpha",
+  "path": "./packages/blocks/CfAdditionalRoleSupport5",
+  "assembler-adapters": [],
+  "mobile": {
+    "merge-engine-navigation": {},
+    "assembler-exports": [
+      "CfAdditionalRoleSupport5"
+    ],
+    "assembler-dependencies": [],
+    "catalog-dependencies": [
+      "core",
+      "utilities"
+    ],
+    "assembler-devDependencies": [],
+    "merge-engine-screens": {
+      "CfAdditionalRoleSupport5": {
+        "file": "CfAdditionalRoleSupport5.tsx",
+        "extends": "CfAdditionalRoleSupport5Controller",
+        "ui-elements": [],
+        "imports": [
+          {
+            "value": "CfAdditionalRoleSupport5Controller",
+            "path": "./CfAdditionalRoleSupport5Controller"
+          },
+          {
+            "value": "{Props}",
+            "path": "./CfAdditionalRoleSupport5Controller"
+          }
+        ]
+      }
+    }
+  },
+  "web": {
+    "merge-engine-navigation": {},
+    "assembler-exports": [
+      "CfAdditionalRoleSupport5"
+    ],
+    "assembler-dependencies": [],
+    "catalog-dependencies": [
+      "core",
+      "utilities"
+    ],
+    "assembler-devDependencies": [],
+    "merge-engine-screens": {
+      "CfAdditionalRoleSupport5": {
+        "file": "CfAdditionalRoleSupport5.web.tsx",
+        "extends": "CfAdditionalRoleSupport5Controller",
+        "ui-elements": [],
+        "imports": [
+          {
+            "value": "CfAdditionalRoleSupport5Controller",
+            "path": "./CfAdditionalRoleSupport5Controller"
+          },
+          {
+            "value": "{Props}",
+            "path": "./CfAdditionalRoleSupport5Controller"
+          }
+        ]
+      }
+    }
+  }
+}

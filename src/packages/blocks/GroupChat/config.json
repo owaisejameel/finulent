@@ -1,0 +1,65 @@
+{
+  "id": "GroupChat",
+  "version": "0.0.1",
+  "status": "preAlpha",
+  "path": "./packages/blocks/GroupChat",
+  "assembler-adapters": [],
+  "mobile": {
+    "merge-engine-navigation": {},
+    "assembler-exports": [
+      "GroupChat"
+    ],
+    "assembler-dependencies": [],
+    "catalog-dependencies": [
+      "core"
+    ],
+    "assembler-devDependencies": [],
+    "merge-engine-screens": {
+      "GroupChat": {
+        "file": "GroupChat.tsx",
+        "extends": "GroupChatController",
+        "configURL": "",
+        "validationRulesURL": "",
+        "imports": [
+          {
+            "value": "GroupChatController",
+            "path": "./GroupChatController"
+          },
+          {
+            "value": "{Props}",
+            "path": "./GroupChatController"
+          }
+        ]
+      }
+    }
+  },
+  "web": {
+    "merge-engine-navigation": {},
+    "assembler-exports": [
+      "GroupChat"
+    ],
+    "assembler-dependencies": [],
+    "catalog-dependencies": [
+      "core"
+    ],
+    "assembler-devDependencies": [],
+    "merge-engine-screens": {
+      "GroupChat": {
+        "file": "GroupChat.web.tsx",
+        "extends": "GroupChatController",
+        "configURL": "",
+        "validationRulesURL": "",
+        "imports": [
+          {
+            "value": "GroupChatController",
+            "path": "./GroupChatController"
+          },
+          {
+            "value": "{Props}",
+            "path": "./GroupChatController"
+          }
+        ]
+      }
+    }
+  }
+}

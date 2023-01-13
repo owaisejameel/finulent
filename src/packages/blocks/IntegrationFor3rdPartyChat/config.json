@@ -1,0 +1,65 @@
+{
+  "id": "IntegrationFor3rdPartyChat",
+  "version": "0.0.1",
+  "status": "preAlpha",
+  "path": "./packages/blocks/IntegrationFor3rdPartyChat",
+  "assembler-adapters": [],
+  "mobile": {
+    "merge-engine-navigation": {},
+    "assembler-exports": [
+      "IntegrationFor3rdPartyChat"
+    ],
+    "assembler-dependencies": [],
+    "catalog-dependencies": [
+      "core"
+    ],
+    "assembler-devDependencies": [],
+    "merge-engine-screens": {
+      "IntegrationFor3rdPartyChat": {
+        "file": "IntegrationFor3rdPartyChat.tsx",
+        "extends": "IntegrationFor3rdPartyChatController",
+        "configURL": "",
+        "validationRulesURL": "",
+        "imports": [
+          {
+            "value": "IntegrationFor3rdPartyChatController",
+            "path": "./IntegrationFor3rdPartyChatController"
+          },
+          {
+            "value": "{Props}",
+            "path": "./IntegrationFor3rdPartyChatController"
+          }
+        ]
+      }
+    }
+  },
+  "web": {
+    "merge-engine-navigation": {},
+    "assembler-exports": [
+      "IntegrationFor3rdPartyChat"
+    ],
+    "assembler-dependencies": [],
+    "catalog-dependencies": [
+      "core"
+    ],
+    "assembler-devDependencies": [],
+    "merge-engine-screens": {
+      "IntegrationFor3rdPartyChat": {
+        "file": "IntegrationFor3rdPartyChat.web.tsx",
+        "extends": "IntegrationFor3rdPartyChatController",
+        "configURL": "",
+        "validationRulesURL": "",
+        "imports": [
+          {
+            "value": "IntegrationFor3rdPartyChatController",
+            "path": "./IntegrationFor3rdPartyChatController"
+          },
+          {
+            "value": "{Props}",
+            "path": "./IntegrationFor3rdPartyChatController"
+          }
+        ]
+      }
+    }
+  }
+}

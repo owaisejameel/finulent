@@ -1,0 +1,76 @@
+.invoice-heading{
+    font-family: 'Roboto', sans-serif !important;
+    font-size: 16 !important;
+    padding-bottom: 5px;
+    font-weight: bold!important;
+
+}
+.account-details{
+    padding-top: 20px;
+    font-family: 'Roboto', sans-serif !important;
+    font-size: 16 !important;
+    font-weight: bold !important;
+
+}
+.box-design{
+    padding-top: 20px;
+    /* line-height: 0px */
+}
+.update-sign{
+    font-family: 'Roboto', sans-serif !important;
+    font-size: 16 !important;
+    color:#0096FF !important;
+    text-align:left !important;
+     width:100% !important;
+}
+.maindiv-box{
+overflow-y: scroll !important;
+}
+.image-upload{
+    padding: 10px;
+    border: 2px dashed rgba(155, 155, 155, .2);
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: white;
+    width: 200px !important;
+}
+#input-label1{
+    display: none;
+  }
+.hide{
+    display: none !important;
+}
+.input-type{
+    background-color: white !important;
+    width: 100% !important;
+}
+.account-details-heading{
+    margin-bottom: 20px;
+    font-family: 'Roboto', sans-serif !important;
+    font-size: 16 !important;
+    padding-top: 20px !important;
+
+    /* padding: 20px 20px 20px 20px !important; */
+
+}
+.account-content{
+    padding-bottom: 25px !important;
+    width:400px !important
+}
+.display-image{
+    padding: 3rem;
+    width: 30%;
+    background-color: white;
+}
+.invoicedata-heading{
+    font-family: 'Roboto', sans-serif !important;
+    font-size: 20 !important;
+    color: black !important;
+    font-weight: bold !important;
+
+}
+.input-address-type{
+    font-family: 'Roboto', sans-serif !important;
+}

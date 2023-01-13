@@ -1,0 +1,65 @@
+{
+  "id": "StatusOfInvoices",
+  "version": "0.0.2",
+  "status": "preAlpha",
+  "path": "./packages/blocks/StatusOfInvoices",
+  "assembler-adapters": [],
+  "mobile": {
+    "merge-engine-navigation": {},
+    "assembler-exports": [
+      "StatusOfInvoices"
+    ],
+    "assembler-dependencies": [],
+    "catalog-dependencies": [
+      "core",
+      "utilities"
+    ],
+    "assembler-devDependencies": [],
+    "merge-engine-screens": {
+      "StatusOfInvoices": {
+        "file": "StatusOfInvoices.tsx",
+        "extends": "StatusOfInvoicesController",
+        "ui-elements": [],
+        "imports": [
+          {
+            "value": "StatusOfInvoicesController",
+            "path": "./StatusOfInvoicesController"
+          },
+          {
+            "value": "{Props}",
+            "path": "./StatusOfInvoicesController"
+          }
+        ]
+      }
+    }
+  },
+  "web": {
+    "merge-engine-navigation": {},
+    "assembler-exports": [
+      "StatusOfInvoices"
+    ],
+    "assembler-dependencies": [],
+    "catalog-dependencies": [
+      "core",
+      "utilities"
+    ],
+    "assembler-devDependencies": [],
+    "merge-engine-screens": {
+      "StatusOfInvoices": {
+        "file": "StatusOfInvoices.web.tsx",
+        "extends": "StatusOfInvoicesController",
+        "ui-elements": [],
+        "imports": [
+          {
+            "value": "StatusOfInvoicesController",
+            "path": "./StatusOfInvoicesController"
+          },
+          {
+            "value": "{Props}",
+            "path": "./StatusOfInvoicesController"
+          }
+        ]
+      }
+    }
+  }
+}

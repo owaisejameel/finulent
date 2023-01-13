@@ -1,0 +1,65 @@
+{
+  "id": "IntegrationWithExistingHrmsPlatform",
+  "version": "0.0.2",
+  "status": "preAlpha",
+  "path": "./packages/blocks/IntegrationWithExistingHrmsPlatform",
+  "assembler-adapters": [],
+  "mobile": {
+    "merge-engine-navigation": {},
+    "assembler-exports": [
+      "IntegrationWithExistingHrmsPlatform"
+    ],
+    "assembler-dependencies": [],
+    "catalog-dependencies": [
+      "core",
+      "utilities"
+    ],
+    "assembler-devDependencies": [],
+    "merge-engine-screens": {
+      "IntegrationWithExistingHrmsPlatform": {
+        "file": "IntegrationWithExistingHrmsPlatform.tsx",
+        "extends": "IntegrationWithExistingHrmsPlatformController",
+        "ui-elements": [],
+        "imports": [
+          {
+            "value": "IntegrationWithExistingHrmsPlatformController",
+            "path": "./IntegrationWithExistingHrmsPlatformController"
+          },
+          {
+            "value": "{Props}",
+            "path": "./IntegrationWithExistingHrmsPlatformController"
+          }
+        ]
+      }
+    }
+  },
+  "web": {
+    "merge-engine-navigation": {},
+    "assembler-exports": [
+      "IntegrationWithExistingHrmsPlatform"
+    ],
+    "assembler-dependencies": [],
+    "catalog-dependencies": [
+      "core",
+      "utilities"
+    ],
+    "assembler-devDependencies": [],
+    "merge-engine-screens": {
+      "IntegrationWithExistingHrmsPlatform": {
+        "file": "IntegrationWithExistingHrmsPlatform.web.tsx",
+        "extends": "IntegrationWithExistingHrmsPlatformController",
+        "ui-elements": [],
+        "imports": [
+          {
+            "value": "IntegrationWithExistingHrmsPlatformController",
+            "path": "./IntegrationWithExistingHrmsPlatformController"
+          },
+          {
+            "value": "{Props}",
+            "path": "./IntegrationWithExistingHrmsPlatformController"
+          }
+        ]
+      }
+    }
+  }
+}

@@ -1,0 +1,65 @@
+{
+  "id": "CfCustomizableFilterConditions4",
+  "version": "0.0.2",
+  "status": "preAlpha",
+  "path": "./packages/blocks/CfCustomizableFilterConditions4",
+  "assembler-adapters": [],
+  "mobile": {
+    "merge-engine-navigation": {},
+    "assembler-exports": [
+      "CfCustomizableFilterConditions4"
+    ],
+    "assembler-dependencies": [],
+    "catalog-dependencies": [
+      "core",
+      "utilities"
+    ],
+    "assembler-devDependencies": [],
+    "merge-engine-screens": {
+      "CfCustomizableFilterConditions4": {
+        "file": "CfCustomizableFilterConditions4.tsx",
+        "extends": "CfCustomizableFilterConditions4Controller",
+        "ui-elements": [],
+        "imports": [
+          {
+            "value": "CfCustomizableFilterConditions4Controller",
+            "path": "./CfCustomizableFilterConditions4Controller"
+          },
+          {
+            "value": "{Props}",
+            "path": "./CfCustomizableFilterConditions4Controller"
+          }
+        ]
+      }
+    }
+  },
+  "web": {
+    "merge-engine-navigation": {},
+    "assembler-exports": [
+      "CfCustomizableFilterConditions4"
+    ],
+    "assembler-dependencies": [],
+    "catalog-dependencies": [
+      "core",
+      "utilities"
+    ],
+    "assembler-devDependencies": [],
+    "merge-engine-screens": {
+      "CfCustomizableFilterConditions4": {
+        "file": "CfCustomizableFilterConditions4.web.tsx",
+        "extends": "CfCustomizableFilterConditions4Controller",
+        "ui-elements": [],
+        "imports": [
+          {
+            "value": "CfCustomizableFilterConditions4Controller",
+            "path": "./CfCustomizableFilterConditions4Controller"
+          },
+          {
+            "value": "{Props}",
+            "path": "./CfCustomizableFilterConditions4Controller"
+          }
+        ]
+      }
+    }
+  }
+}

@@ -1,0 +1,65 @@
+{
+  "id": "Timestamp",
+  "version": "0.0.2",
+  "status": "preAlpha",
+  "path": "./packages/blocks/Timestamp",
+  "assembler-adapters": [],
+  "mobile": {
+    "merge-engine-navigation": {},
+    "assembler-exports": [
+      "Timestamp"
+    ],
+    "assembler-dependencies": [],
+    "catalog-dependencies": [
+      "core",
+      "utilities"
+    ],
+    "assembler-devDependencies": [],
+    "merge-engine-screens": {
+      "Timestamp": {
+        "file": "Timestamp.tsx",
+        "extends": "TimestampController",
+        "ui-elements": [],
+        "imports": [
+          {
+            "value": "TimestampController",
+            "path": "./TimestampController"
+          },
+          {
+            "value": "{Props}",
+            "path": "./TimestampController"
+          }
+        ]
+      }
+    }
+  },
+  "web": {
+    "merge-engine-navigation": {},
+    "assembler-exports": [
+      "Timestamp"
+    ],
+    "assembler-dependencies": [],
+    "catalog-dependencies": [
+      "core",
+      "utilities"
+    ],
+    "assembler-devDependencies": [],
+    "merge-engine-screens": {
+      "Timestamp": {
+        "file": "Timestamp.web.tsx",
+        "extends": "TimestampController",
+        "ui-elements": [],
+        "imports": [
+          {
+            "value": "TimestampController",
+            "path": "./TimestampController"
+          },
+          {
+            "value": "{Props}",
+            "path": "./TimestampController"
+          }
+        ]
+      }
+    }
+  }
+}

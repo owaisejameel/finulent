@@ -1,0 +1,135 @@
+.boldText{
+    font-weight: bolder;
+    font-size: 17.5px;
+}
+
+
+.breadCrumbText{
+    font-size: 15px;
+    font-weight: lighter;
+    color: #9B9D9F;
+}
+
+.options{
+    margin: 10px 10px;
+    font-size: 20px;
+    border-radius: 50%;
+}
+
+.options:hover{
+    cursor: pointer;
+    background-color: #bebec7;
+}
+
+.cardText{
+    color: #919191;
+    font-size: 16px;   
+    line-height: 25px;
+}
+
+.menu div:hover{
+    background-color: lightgrey;
+    cursor: pointer;
+}
+
+.menu div{
+    padding: 2px 5px;
+}
+
+
+.carsdDiv{
+    
+    margin-top: 1.5rem;
+    display: grid;
+    grid-template-columns: repeat(auto-fill,minmax(250px,1fr));
+    gap: 1rem;
+}
+
+
+.carsdDivSubFolder{
+    display: grid;
+    padding-left: 0px;
+    padding-right: 0px;
+    gap: 1rem;
+}
+
+.card{
+    padding: 0px 0px;
+    padding-bottom: 5px;
+    background-color: white;
+    border-radius: 5px;
+    max-width: 300px;
+    
+    
+    
+    
+}
+
+.labelModal{
+    font-size: 16px;
+    font-weight: bolder;
+    color: rgb(122, 122, 122);
+    margin-bottom: 5px;
+}
+
+.labelValue{
+    color: darkgray;
+    margin: 5px 0px;
+    word-wrap: break-word;
+}
+
+.closeIcon:hover{
+    cursor: pointer;
+}
+
+.deleteModalText{
+    color: #8F8F8F;
+}
+
+.dotText{
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    max-width: 50%;
+    text-align: center;
+    margin: auto;
+}
+
+.errorFieldText{
+    color: red;
+    font-size: 12px;  
+    margin-top: 5px;
+    font-family: sans-serif;
+}
+
+.seeClientHeading{
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    max-width: 8rem;
+}
+
+.statusImage{
+    width:100%;
+    height: 100px;
+    margin-bottom: 25px
+}
+
+#searchClientInput{
+  padding: 6px 0 6px;
+}
+
+@media only screen and (max-width: 950px) {
+   
+    .carsdDiv{
+       
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+    .card{
+        max-width: 300px;
+        min-width: 300px;
+    }
+   
+  }

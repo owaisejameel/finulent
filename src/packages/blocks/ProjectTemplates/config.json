@@ -1,0 +1,65 @@
+{
+  "id": "ProjectTemplates",
+  "version": "0.0.2",
+  "status": "preAlpha",
+  "path": "./packages/blocks/ProjectTemplates",
+  "assembler-adapters": [],
+  "mobile": {
+    "merge-engine-navigation": {},
+    "assembler-exports": [
+      "ProjectTemplates"
+    ],
+    "assembler-dependencies": [],
+    "catalog-dependencies": [
+      "core",
+      "utilities"
+    ],
+    "assembler-devDependencies": [],
+    "merge-engine-screens": {
+      "ProjectTemplates": {
+        "file": "ProjectTemplates.tsx",
+        "extends": "ProjectTemplatesController",
+        "ui-elements": [],
+        "imports": [
+          {
+            "value": "ProjectTemplatesController",
+            "path": "./ProjectTemplatesController"
+          },
+          {
+            "value": "{Props}",
+            "path": "./ProjectTemplatesController"
+          }
+        ]
+      }
+    }
+  },
+  "web": {
+    "merge-engine-navigation": {},
+    "assembler-exports": [
+      "ProjectTemplates"
+    ],
+    "assembler-dependencies": [],
+    "catalog-dependencies": [
+      "core",
+      "utilities"
+    ],
+    "assembler-devDependencies": [],
+    "merge-engine-screens": {
+      "ProjectTemplates": {
+        "file": "ProjectTemplates.web.tsx",
+        "extends": "ProjectTemplatesController",
+        "ui-elements": [],
+        "imports": [
+          {
+            "value": "ProjectTemplatesController",
+            "path": "./ProjectTemplatesController"
+          },
+          {
+            "value": "{Props}",
+            "path": "./ProjectTemplatesController"
+          }
+        ]
+      }
+    }
+  }
+}

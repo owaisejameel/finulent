@@ -1,0 +1,23 @@
+
+/* .draftBtn {
+    background-color: yellow  !important;
+    border-top-right-radius: 10px !important;
+    border-bottom-right-radius: 10px !important;
+    color : #fff !important;
+    outline: none ;
+} */
+
+.dratBtnContainer {
+    display:  flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 20px;
+}
+
+.seeAllText {
+    color: #0096FF;
+    font-family : sans-serif;
+    font-weight: bold;
+    font-size: 16;
+    margin-right:  10px;
+  }

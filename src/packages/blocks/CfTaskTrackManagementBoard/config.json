@@ -1,0 +1,65 @@
+{
+  "id": "CfTaskTrackManagementBoard",
+  "version": "0.0.2",
+  "status": "preAlpha",
+  "path": "./packages/blocks/CfTaskTrackManagementBoard",
+  "assembler-adapters": [],
+  "mobile": {
+    "merge-engine-navigation": {},
+    "assembler-exports": [
+      "CfTaskTrackManagementBoard"
+    ],
+    "assembler-dependencies": [],
+    "catalog-dependencies": [
+      "core",
+      "utilities"
+    ],
+    "assembler-devDependencies": [],
+    "merge-engine-screens": {
+      "CfTaskTrackManagementBoard": {
+        "file": "CfTaskTrackManagementBoard.tsx",
+        "extends": "CfTaskTrackManagementBoardController",
+        "ui-elements": [],
+        "imports": [
+          {
+            "value": "CfTaskTrackManagementBoardController",
+            "path": "./CfTaskTrackManagementBoardController"
+          },
+          {
+            "value": "{Props}",
+            "path": "./CfTaskTrackManagementBoardController"
+          }
+        ]
+      }
+    }
+  },
+  "web": {
+    "merge-engine-navigation": {},
+    "assembler-exports": [
+      "CfTaskTrackManagementBoard"
+    ],
+    "assembler-dependencies": [],
+    "catalog-dependencies": [
+      "core",
+      "utilities"
+    ],
+    "assembler-devDependencies": [],
+    "merge-engine-screens": {
+      "CfTaskTrackManagementBoard": {
+        "file": "CfTaskTrackManagementBoard.web.tsx",
+        "extends": "CfTaskTrackManagementBoardController",
+        "ui-elements": [],
+        "imports": [
+          {
+            "value": "CfTaskTrackManagementBoardController",
+            "path": "./CfTaskTrackManagementBoardController"
+          },
+          {
+            "value": "{Props}",
+            "path": "./CfTaskTrackManagementBoardController"
+          }
+        ]
+      }
+    }
+  }
+}

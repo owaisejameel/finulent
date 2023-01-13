@@ -1,0 +1,65 @@
+{
+  "id": "CfColorCodeAutomation4",
+  "version": "0.0.2",
+  "status": "preAlpha",
+  "path": "./packages/blocks/CfColorCodeAutomation4",
+  "assembler-adapters": [],
+  "mobile": {
+    "merge-engine-navigation": {},
+    "assembler-exports": [
+      "CfColorCodeAutomation4"
+    ],
+    "assembler-dependencies": [],
+    "catalog-dependencies": [
+      "core",
+      "utilities"
+    ],
+    "assembler-devDependencies": [],
+    "merge-engine-screens": {
+      "CfColorCodeAutomation4": {
+        "file": "CfColorCodeAutomation4.tsx",
+        "extends": "CfColorCodeAutomation4Controller",
+        "ui-elements": [],
+        "imports": [
+          {
+            "value": "CfColorCodeAutomation4Controller",
+            "path": "./CfColorCodeAutomation4Controller"
+          },
+          {
+            "value": "{Props}",
+            "path": "./CfColorCodeAutomation4Controller"
+          }
+        ]
+      }
+    }
+  },
+  "web": {
+    "merge-engine-navigation": {},
+    "assembler-exports": [
+      "CfColorCodeAutomation4"
+    ],
+    "assembler-dependencies": [],
+    "catalog-dependencies": [
+      "core",
+      "utilities"
+    ],
+    "assembler-devDependencies": [],
+    "merge-engine-screens": {
+      "CfColorCodeAutomation4": {
+        "file": "CfColorCodeAutomation4.web.tsx",
+        "extends": "CfColorCodeAutomation4Controller",
+        "ui-elements": [],
+        "imports": [
+          {
+            "value": "CfColorCodeAutomation4Controller",
+            "path": "./CfColorCodeAutomation4Controller"
+          },
+          {
+            "value": "{Props}",
+            "path": "./CfColorCodeAutomation4Controller"
+          }
+        ]
+      }
+    }
+  }
+}

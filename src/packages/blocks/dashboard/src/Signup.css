@@ -1,0 +1,121 @@
+.circular_image {
+    width: 20px;
+    height: 20px;
+    overflow: hidden;
+    background-color: blue;
+    vertical-align:middle;
+  }
+  .circular_image img{
+    width:100%;
+  }
+  .datePicker{
+    background-color: brown;
+  }
+  .overlay{
+    position: relative;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+     margin:"20px";
+    background-color: rebeccapurple;
+  }
+  .Modal {
+    position: relative;
+    top: 25%;
+    left: 35%;
+    right: 40px;
+    bottom: 40px;
+    margin:"10px";
+    width: 500px;
+    height: 500px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* align-content: center; */
+
+    background-color: papayawhip;
+  }
+  .successModal{
+    position: relative;
+    top: 25%;
+    left: 35%;
+    right: 40px;
+    bottom: 40px;
+    margin:"10px";
+    width: 500px;
+    height: 500px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: papayawhip;
+  }
+
+  .content{
+    justify-content: center;
+    margin-bottom: 100;
+    margin-left: 5;
+  }
+  .success{
+    justify-content: center;
+    margin-bottom: 150;
+    margin-left: 80;
+  }
+  .message{
+    color: Black;
+    font-family: "san-serif";
+    font-size: 35px;
+    font-family: "Roboto", "Helvetica", "Arial", sans-serif;
+    font-weight: 400;
+    line-height: 1.5;
+    letter-spacing: 0.00938em;
+    text-align: center;
+}
+.modal-backdrop {
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background-color: rgba(0, 0, 0, 0.4);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 2;
+}
+/* .loginbtn{
+  radial-gradient:(rgb(246 168 34), rgb(171 114 24))
+} */
+
+.modal-content {
+  width: 40%;
+  /* min-height: 200px; */
+  background-color: white;
+  padding: 25px;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+}
+.appbar{
+  z-index: 1400;
+  color: bisque;
+  background-color: brown;
+}
+.modal-content-success {
+  width: 20%;
+  height: 40%;
+  font-family: sans-serif;
+  overflow: auto;
+  /* height:40%; */
+  /* min-height: 200px; */
+  background-color: white;
+  padding: 25px;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+
+
+

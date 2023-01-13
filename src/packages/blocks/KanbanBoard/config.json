@@ -1,0 +1,65 @@
+{
+  "id": "KanbanBoard",
+  "version": "0.0.2",
+  "status": "preAlpha",
+  "path": "./packages/blocks/KanbanBoard",
+  "assembler-adapters": [],
+  "mobile": {
+    "merge-engine-navigation": {},
+    "assembler-exports": [
+      "KanbanBoard"
+    ],
+    "assembler-dependencies": [],
+    "catalog-dependencies": [
+      "core",
+      "utilities"
+    ],
+    "assembler-devDependencies": [],
+    "merge-engine-screens": {
+      "KanbanBoard": {
+        "file": "KanbanBoard.tsx",
+        "extends": "KanbanBoardController",
+        "ui-elements": [],
+        "imports": [
+          {
+            "value": "KanbanBoardController",
+            "path": "./KanbanBoardController"
+          },
+          {
+            "value": "{Props}",
+            "path": "./KanbanBoardController"
+          }
+        ]
+      }
+    }
+  },
+  "web": {
+    "merge-engine-navigation": {},
+    "assembler-exports": [
+      "KanbanBoard"
+    ],
+    "assembler-dependencies": [],
+    "catalog-dependencies": [
+      "core",
+      "utilities"
+    ],
+    "assembler-devDependencies": [],
+    "merge-engine-screens": {
+      "KanbanBoard": {
+        "file": "KanbanBoard.web.tsx",
+        "extends": "KanbanBoardController",
+        "ui-elements": [],
+        "imports": [
+          {
+            "value": "KanbanBoardController",
+            "path": "./KanbanBoardController"
+          },
+          {
+            "value": "{Props}",
+            "path": "./KanbanBoardController"
+          }
+        ]
+      }
+    }
+  }
+}

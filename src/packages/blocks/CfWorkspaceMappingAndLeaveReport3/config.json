@@ -1,0 +1,65 @@
+{
+  "id": "CfWorkspaceMappingAndLeaveReport3",
+  "version": "0.0.2",
+  "status": "preAlpha",
+  "path": "./packages/blocks/CfWorkspaceMappingAndLeaveReport3",
+  "assembler-adapters": [],
+  "mobile": {
+    "merge-engine-navigation": {},
+    "assembler-exports": [
+      "CfWorkspaceMappingAndLeaveReport3"
+    ],
+    "assembler-dependencies": [],
+    "catalog-dependencies": [
+      "core",
+      "utilities"
+    ],
+    "assembler-devDependencies": [],
+    "merge-engine-screens": {
+      "CfWorkspaceMappingAndLeaveReport3": {
+        "file": "CfWorkspaceMappingAndLeaveReport3.tsx",
+        "extends": "CfWorkspaceMappingAndLeaveReport3Controller",
+        "ui-elements": [],
+        "imports": [
+          {
+            "value": "CfWorkspaceMappingAndLeaveReport3Controller",
+            "path": "./CfWorkspaceMappingAndLeaveReport3Controller"
+          },
+          {
+            "value": "{Props}",
+            "path": "./CfWorkspaceMappingAndLeaveReport3Controller"
+          }
+        ]
+      }
+    }
+  },
+  "web": {
+    "merge-engine-navigation": {},
+    "assembler-exports": [
+      "CfWorkspaceMappingAndLeaveReport3"
+    ],
+    "assembler-dependencies": [],
+    "catalog-dependencies": [
+      "core",
+      "utilities"
+    ],
+    "assembler-devDependencies": [],
+    "merge-engine-screens": {
+      "CfWorkspaceMappingAndLeaveReport3": {
+        "file": "CfWorkspaceMappingAndLeaveReport3.web.tsx",
+        "extends": "CfWorkspaceMappingAndLeaveReport3Controller",
+        "ui-elements": [],
+        "imports": [
+          {
+            "value": "CfWorkspaceMappingAndLeaveReport3Controller",
+            "path": "./CfWorkspaceMappingAndLeaveReport3Controller"
+          },
+          {
+            "value": "{Props}",
+            "path": "./CfWorkspaceMappingAndLeaveReport3Controller"
+          }
+        ]
+      }
+    }
+  }
+}

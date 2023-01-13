@@ -1,0 +1,26 @@
+.cells td{
+    color: #9F9F9F;
+    /* font-size: 1.4vh; */
+    /* border: 1px solid red; */
+    padding: 10px 0px;
+    text-align: center;
+}
+
+.actionButton:hover{
+  scale: 1.2;
+  color: teal;
+  cursor: pointer;
+}
+
+.modalLabel{
+  color: #424242;
+  margin-bottom: 10px;
+  font-weight: bold;
+}
+
+.nameText{
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  max-width: 60px;
+}

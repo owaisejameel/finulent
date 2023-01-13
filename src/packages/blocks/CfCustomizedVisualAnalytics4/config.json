@@ -1,0 +1,65 @@
+{
+  "id": "CfCustomizedVisualAnalytics4",
+  "version": "0.0.2",
+  "status": "preAlpha",
+  "path": "./packages/blocks/CfCustomizedVisualAnalytics4",
+  "assembler-adapters": [],
+  "mobile": {
+    "merge-engine-navigation": {},
+    "assembler-exports": [
+      "CfCustomizedVisualAnalytics4"
+    ],
+    "assembler-dependencies": [],
+    "catalog-dependencies": [
+      "core",
+      "utilities"
+    ],
+    "assembler-devDependencies": [],
+    "merge-engine-screens": {
+      "CfCustomizedVisualAnalytics4": {
+        "file": "CfCustomizedVisualAnalytics4.tsx",
+        "extends": "CfCustomizedVisualAnalytics4Controller",
+        "ui-elements": [],
+        "imports": [
+          {
+            "value": "CfCustomizedVisualAnalytics4Controller",
+            "path": "./CfCustomizedVisualAnalytics4Controller"
+          },
+          {
+            "value": "{Props}",
+            "path": "./CfCustomizedVisualAnalytics4Controller"
+          }
+        ]
+      }
+    }
+  },
+  "web": {
+    "merge-engine-navigation": {},
+    "assembler-exports": [
+      "CfCustomizedVisualAnalytics4"
+    ],
+    "assembler-dependencies": [],
+    "catalog-dependencies": [
+      "core",
+      "utilities"
+    ],
+    "assembler-devDependencies": [],
+    "merge-engine-screens": {
+      "CfCustomizedVisualAnalytics4": {
+        "file": "CfCustomizedVisualAnalytics4.web.tsx",
+        "extends": "CfCustomizedVisualAnalytics4Controller",
+        "ui-elements": [],
+        "imports": [
+          {
+            "value": "CfCustomizedVisualAnalytics4Controller",
+            "path": "./CfCustomizedVisualAnalytics4Controller"
+          },
+          {
+            "value": "{Props}",
+            "path": "./CfCustomizedVisualAnalytics4Controller"
+          }
+        ]
+      }
+    }
+  }
+}

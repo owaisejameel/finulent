@@ -1,0 +1,80 @@
+.template-btn{
+
+    font-family: 'Roboto' sans-serif !important;
+    font-size: 14 !important;
+    padding: 10px 35px 10px 35px !important;
+    color: black !important;
+    /* width: 50% !important; */
+    text-transform: none !important;
+    font-weight: bold !important;
+    margin-left: 5px !important;
+    margin-top: 10px !important;
+}
+.editcodebtn{
+    background-color:#D3D3D3 !important;
+    font-family: 'Roboto' sans-serif !important;
+    font-size: 16 !important;
+    padding: 10px 35px 10px 35px !important;
+    color: black !important;
+    /* width: 50% !important; */
+    text-transform: none !important;
+    font-weight: bold !important;
+}
+.maindiv-table{
+    background-color: white !important
+}
+.table-data{
+    background-color: white !important;
+    padding: 10px !important ;
+    margin-top:20px !important
+}
+.template-box{
+    background-color: white !important;
+    /* height: 100% ; */
+    margin-top: 15px;
+    margin-bottom: 10px;
+}
+.projecttypename{
+    font-family: 'Roboto' sans-serif !important;
+    font-size: 15 !important;
+    font-weight: bold !important;
+}
+.tableheadercolor{
+    background-color: #D3D3D3 !important;
+    margin-top: 5px ;
+    font-weight: bold !important;
+}
+.add-project{
+    font-family: 'Roboto' sans-serif !important;
+    font-size: 16 !important;
+    color: #0096FF !important;
+    font-weight: bold !important;
+    margin-right: 10px;
+    text-transform: none !important;
+}
+.color-mainbox{
+    display: flex !important;
+    width: 100% !important;
+     justify-content: space-between !important ;
+     padding: 10px !important;
+      border: 1px solid grey !important;
+       box-sizing: border-box !important;
+        align-items: center !important;
+}
+.color-square{
+    height: 50px;
+  width: 50px;
+  background-color: #555;
+}
+.colorfont{
+    font-family: 'Roboto' sans-serif !important;
+    font-size: 16 !important;
+}
+.maincolor{
+    background-color: grey !important;
+}
+.messageErr{
+    font-family: 'Roboto' sans-serif !important;
+    font-size: 16 !important;
+    color: red !important;
+}

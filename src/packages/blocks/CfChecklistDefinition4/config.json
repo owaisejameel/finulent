@@ -1,0 +1,65 @@
+{
+  "id": "CfChecklistDefinition4",
+  "version": "0.0.2",
+  "status": "preAlpha",
+  "path": "./packages/blocks/CfChecklistDefinition4",
+  "assembler-adapters": [],
+  "mobile": {
+    "merge-engine-navigation": {},
+    "assembler-exports": [
+      "CfChecklistDefinition4"
+    ],
+    "assembler-dependencies": [],
+    "catalog-dependencies": [
+      "core",
+      "utilities"
+    ],
+    "assembler-devDependencies": [],
+    "merge-engine-screens": {
+      "CfChecklistDefinition4": {
+        "file": "CfChecklistDefinition4.tsx",
+        "extends": "CfChecklistDefinition4Controller",
+        "ui-elements": [],
+        "imports": [
+          {
+            "value": "CfChecklistDefinition4Controller",
+            "path": "./CfChecklistDefinition4Controller"
+          },
+          {
+            "value": "{Props}",
+            "path": "./CfChecklistDefinition4Controller"
+          }
+        ]
+      }
+    }
+  },
+  "web": {
+    "merge-engine-navigation": {},
+    "assembler-exports": [
+      "CfChecklistDefinition4"
+    ],
+    "assembler-dependencies": [],
+    "catalog-dependencies": [
+      "core",
+      "utilities"
+    ],
+    "assembler-devDependencies": [],
+    "merge-engine-screens": {
+      "CfChecklistDefinition4": {
+        "file": "CfChecklistDefinition4.web.tsx",
+        "extends": "CfChecklistDefinition4Controller",
+        "ui-elements": [],
+        "imports": [
+          {
+            "value": "CfChecklistDefinition4Controller",
+            "path": "./CfChecklistDefinition4Controller"
+          },
+          {
+            "value": "{Props}",
+            "path": "./CfChecklistDefinition4Controller"
+          }
+        ]
+      }
+    }
+  }
+}

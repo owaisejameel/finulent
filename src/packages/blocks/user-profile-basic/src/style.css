@@ -1,0 +1,29 @@
+.buttontext {
+    text-align: center;
+    text-transform: none;
+}
+
+.boxcontainer {
+  box-sizing: border-box;
+  position: absolute;
+}
+
+.boxcontainerprofile {
+  box-sizing: border-box;
+  position: fixed;
+}
+
+.headnavbar {
+  box-sizing: border-box;
+  position: fixed;
+}
+/* .body {
+  overflow-y: scroll;
+  position: fixed;
+} */
+
+/* *{
+    -ms-overflow-style: none;
+  } */
+
+

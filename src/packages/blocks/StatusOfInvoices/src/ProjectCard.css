@@ -1,0 +1,117 @@
+.projectCardForStatusOfInvoice{
+    position: relative;
+    border: 1px solid grey;
+    border-radius: 5px;
+    margin: 10px;
+    /* width: 30rem;
+    height: 25rem; */
+}
+.projectCardForStatusOfInvoice:hover{
+    cursor: pointer;
+    transition: all 0.5s;
+    border: 2px solid gray;
+    scale: 1.05;
+}
+
+.projectCardSection{
+   
+    margin-left: 5%;
+    align-items: center;
+}
+
+.lightText{
+    font-size: 1.8vh;
+    color: darkgray;
+}
+
+.darkText{
+    font-size: 2vh;    
+    color: black;
+}
+
+.leftRightDir div{
+    margin-left: 10;
+}
+
+.detailsText{
+    color: #AFB7BC;
+    font-size: 11px;
+}
+
+.detailsValue{
+   font-size: 12px;
+}
+
+
+.calender{
+    padding: 10px;
+    border-radius: 5px;
+    border:1px solid #D2D2D2;
+    background-color: white;
+}
+
+
+.calender div{
+    border: none;
+}
+
+.rowStatus{
+    height: 13vh;
+}
+
+.labelFont{
+    font-weight: bolder;
+    font-size: 14px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+}
+
+/* .togglers:hover{
+    cursor: pointer;
+    border: 2px solid #F1AD30;
+} */
+
+.text-field-Adornment {
+    place-self: end;
+    padding-bottom: 0.8rem;
+    margin-right: -0.6rem;
+  }
+
+  .sendBtn{
+     background-image: radial-gradient(rgb(246 168 34), rgb(171 114 24));
+  }
+
+  /* .nameText{
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+     max-width: 60px;
+  } */
+
+  .seeAllText {
+    color: #0096FF;
+    font-family : sans-serif;
+    font-weight: bold;
+    font-size: 16;
+    margin-right:  10px;
+    cursor: pointer;
+  }
+
+  .nameText{
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    max-width: 60px;
+  }
+
+  .tripleDotIcon{
+    position: absolute !important;
+    right: 5% !important;
+    top: 0 !important;
+}
+
+.slick-track{
+    margin-left: 0 !important;
+}
+  

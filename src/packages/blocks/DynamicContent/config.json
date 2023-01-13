@@ -1,0 +1,65 @@
+{
+  "id": "DynamicContent",
+  "version": "0.0.2",
+  "status": "preAlpha",
+  "path": "./packages/blocks/DynamicContent",
+  "assembler-adapters": [],
+  "mobile": {
+    "merge-engine-navigation": {},
+    "assembler-exports": [
+      "DynamicContent"
+    ],
+    "assembler-dependencies": [],
+    "catalog-dependencies": [
+      "core",
+      "utilities"
+    ],
+    "assembler-devDependencies": [],
+    "merge-engine-screens": {
+      "DynamicContent": {
+        "file": "DynamicContent.tsx",
+        "extends": "DynamicContentController",
+        "ui-elements": [],
+        "imports": [
+          {
+            "value": "DynamicContentController",
+            "path": "./DynamicContentController"
+          },
+          {
+            "value": "{Props}",
+            "path": "./DynamicContentController"
+          }
+        ]
+      }
+    }
+  },
+  "web": {
+    "merge-engine-navigation": {},
+    "assembler-exports": [
+      "DynamicContent"
+    ],
+    "assembler-dependencies": [],
+    "catalog-dependencies": [
+      "core",
+      "utilities"
+    ],
+    "assembler-devDependencies": [],
+    "merge-engine-screens": {
+      "DynamicContent": {
+        "file": "DynamicContent.web.tsx",
+        "extends": "DynamicContentController",
+        "ui-elements": [],
+        "imports": [
+          {
+            "value": "DynamicContentController",
+            "path": "./DynamicContentController"
+          },
+          {
+            "value": "{Props}",
+            "path": "./DynamicContentController"
+          }
+        ]
+      }
+    }
+  }
+}

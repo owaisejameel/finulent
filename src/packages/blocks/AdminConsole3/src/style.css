@@ -1,0 +1,91 @@
+.buttontext {
+    text-align: center;
+    text-transform: none;
+}
+
+.boxcontainer {
+  box-sizing: border-box;
+  position: absolute;
+}
+
+.boxcontainerprofile {
+  box-sizing: border-box;
+  position: fixed;
+  overflow: scroll;
+  /* overflow-y: scroll; */
+}
+.input-type{
+  background-color: white !important;
+  width: 100% !important;
+}
+
+.headnavbar {
+  box-sizing: border-box;
+  position: fixed;
+}
+.modalcontentsuccess {
+  display: flex;
+  flex-direction: column;
+  overflow: visible;
+  overflow-y: scroll;
+  margin: 20px;
+  
+}
+
+.cardcontents {
+  justify-content: "center";
+  align-content: "center";
+  display: "flex"; 
+  flex-direction: "column";
+  box-sizing: border-box;
+  height: "650px";
+  width: "400px";
+  margin-right: 20px;
+}
+.maincardstyle {
+  display: "flex";
+  flex-direction: "column";
+}
+
+.avatardivcontent {
+  display: "flex";
+  flex-direction: column;
+}
+
+.descriptionstyle {
+  text-align: center;
+}
+
+.addclientdivcontent {
+  display: "flex";
+  flex-direction: "column";
+}
+
+.editclientmaindivcontent {
+  display: "flex";
+  flex-direction: "column";
+}
+.editclientteamleaddiv {
+  display: "flex";
+  flex-direction: "row";
+}
+.showclientinsidecontentdiv {
+  display: "flex";
+  flex-direction: "column";
+}
+.showclientteamlead {
+  display: "flex";
+  flex-direction: "row";
+}
+/* .body {
+  position: fixed;
+} */
+
+/* *{
+    -ms-overflow-style: none;
+  } */
+  /* ? removed scroll css from here and added in index.css */
+  /* ::-webkit-scrollbar { */
+    /* width: 0; */
+  /* } */
+
